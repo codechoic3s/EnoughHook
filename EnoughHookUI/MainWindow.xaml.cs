@@ -30,7 +30,7 @@ namespace EnoughHookUI
 
         public TabManager GetTabManager()
         {
-            throw new NotImplementedException();
+            return TabManager;
         }
 
         private void close(object sender, RoutedEventArgs e)

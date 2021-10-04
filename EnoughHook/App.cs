@@ -34,6 +34,7 @@ namespace EnoughHook
             {
                 // just wait
             }
+            mw = (MainWindow)ar[0];
 
             Window = mw;
         }
@@ -50,7 +51,7 @@ namespace EnoughHook
             ConfigManager = new ConfigManager(AppDomain.CurrentDomain.BaseDirectory);
         }
 
-        private void SetupInterface()
+        private void SetupUIInterface()
         {
             TabManager = Window.GetTabManager();
 
@@ -68,7 +69,7 @@ namespace EnoughHook
         {
             StartMainWindow();
             SetupConfigManager();
-            SetupInterface();
+            SetupUIInterface();
         }
     }
 }

@@ -1,0 +1,7 @@
+F:\VisualStudioProjects\EnoughHook\EnoughHook\bin\Debug\EnoughHook.exe.config
+F:\VisualStudioProjects\EnoughHook\EnoughHook\bin\Debug\EnoughHook.exe
+F:\VisualStudioProjects\EnoughHook\EnoughHook\bin\Debug\EnoughHook.pdb
+F:\VisualStudioProjects\EnoughHook\EnoughHook\obj\Debug\EnoughHook.csproj.AssemblyReference.cache
+F:\VisualStudioProjects\EnoughHook\EnoughHook\obj\Debug\EnoughHook.csproj.CoreCompileInputs.cache
+F:\VisualStudioProjects\EnoughHook\EnoughHook\obj\Debug\EnoughHook.exe
+F:\VisualStudioProjects\EnoughHook\EnoughHook\obj\Debug\EnoughHook.pdb

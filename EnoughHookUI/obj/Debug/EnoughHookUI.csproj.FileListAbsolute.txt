@@ -1,0 +1,14 @@
+F:\VisualStudioProjects\EnoughHook\EnoughHookUI\bin\Debug\EnoughHookUI.exe.config
+F:\VisualStudioProjects\EnoughHook\EnoughHookUI\bin\Debug\EnoughHookUI.exe
+F:\VisualStudioProjects\EnoughHook\EnoughHookUI\bin\Debug\EnoughHookUI.pdb
+F:\VisualStudioProjects\EnoughHook\EnoughHookUI\obj\Debug\EnoughHookUI.csproj.AssemblyReference.cache
+F:\VisualStudioProjects\EnoughHook\EnoughHookUI\obj\Debug\MainWindow.g.cs
+F:\VisualStudioProjects\EnoughHook\EnoughHookUI\obj\Debug\EnoughHookUI_MarkupCompile.cache
+F:\VisualStudioProjects\EnoughHook\EnoughHookUI\obj\Debug\EnoughHookUI_MarkupCompile.lref
+F:\VisualStudioProjects\EnoughHook\EnoughHookUI\obj\Debug\MainWindow.baml
+F:\VisualStudioProjects\EnoughHook\EnoughHookUI\obj\Debug\EnoughHookUI.g.resources
+F:\VisualStudioProjects\EnoughHook\EnoughHookUI\obj\Debug\EnoughHookUI.Properties.Resources.resources
+F:\VisualStudioProjects\EnoughHook\EnoughHookUI\obj\Debug\EnoughHookUI.csproj.GenerateResource.cache
+F:\VisualStudioProjects\EnoughHook\EnoughHookUI\obj\Debug\EnoughHookUI.csproj.CoreCompileInputs.cache
+F:\VisualStudioProjects\EnoughHook\EnoughHookUI\obj\Debug\EnoughHookUI.exe
+F:\VisualStudioProjects\EnoughHook\EnoughHookUI\obj\Debug\EnoughHookUI.pdb

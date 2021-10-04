@@ -15,6 +15,9 @@ namespace EnoughHook
         private IWindow Window;
         private TabManager TabManager;
 
+        private Tab TriggerTab;
+        private Tab MovementTab;
+
         private void StartMainWindow()
         {
             MainWindowThread = new Thread(new ParameterizedThreadStart(MWStart));
@@ -42,6 +45,10 @@ namespace EnoughHook
         private void SetupInterface()
         {
             TabManager = Window.GetTabManager();
+            TriggerTab = TabManager.AddNewPanel("Trigger");
+            MovementTab = TabManager.AddNewPanel("Movement");
+
+            
         }
 
         public void Start()

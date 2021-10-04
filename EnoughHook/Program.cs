@@ -10,6 +10,7 @@ namespace EnoughHook
     {
         static void Main(string[] args)
         {
+
         }
     }
 }

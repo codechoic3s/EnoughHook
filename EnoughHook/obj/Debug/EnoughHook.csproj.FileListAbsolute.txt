@@ -5,3 +5,10 @@ F:\VisualStudioProjects\EnoughHook\EnoughHook\obj\Debug\EnoughHook.csproj.Assemb
 F:\VisualStudioProjects\EnoughHook\EnoughHook\obj\Debug\EnoughHook.csproj.CoreCompileInputs.cache
 F:\VisualStudioProjects\EnoughHook\EnoughHook\obj\Debug\EnoughHook.exe
 F:\VisualStudioProjects\EnoughHook\EnoughHook\obj\Debug\EnoughHook.pdb
+D:\Projects\GitHubPrj\EnoughHook\EnoughHook\bin\Debug\EnoughHook.exe.config
+D:\Projects\GitHubPrj\EnoughHook\EnoughHook\bin\Debug\EnoughHook.exe
+D:\Projects\GitHubPrj\EnoughHook\EnoughHook\bin\Debug\EnoughHook.pdb
+D:\Projects\GitHubPrj\EnoughHook\EnoughHook\obj\Debug\EnoughHook.csproj.AssemblyReference.cache
+D:\Projects\GitHubPrj\EnoughHook\EnoughHook\obj\Debug\EnoughHook.csproj.CoreCompileInputs.cache
+D:\Projects\GitHubPrj\EnoughHook\EnoughHook\obj\Debug\EnoughHook.exe
+D:\Projects\GitHubPrj\EnoughHook\EnoughHook\obj\Debug\EnoughHook.pdb

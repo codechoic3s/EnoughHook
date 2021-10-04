@@ -5,8 +5,48 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:EnoughHookUI"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800" WindowStyle="None" AllowsTransparency="True" Background="{x:Null}">
+    <Window.Resources>
+        <Style x:Key="leftsidebt" TargetType="Button">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Grid x:Name="back" Width="40" HorizontalAlignment="Right" Background="#00000000">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,1"/>
+                        </Grid>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" TargetName="back" Value="#FF323238"/>
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter Property="Background" TargetName="back" Value="#FF5F5F64"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="50"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
         
+        <Grid Grid.Row="0" Grid.Column="1" MouseLeftButtonDown="Grid_MouseLeftButtonDown" Background="#F21B1B1E" Grid.ColumnSpan="2">
+            <TextBlock Foreground="White" Text="EnoguhHooks - Disconnected" FontFamily="/EnoughHookUI;component/Fonts/#Raleway" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="50,0,0,0" FontWeight="Bold"/>
+            <Button Style="{DynamicResource leftsidebt}" Width="40" FontFamily="/EnoughHookUI;component/Fonts/#Raleway" Foreground="White" FontSize="16" Content="&#x2715;" HorizontalAlignment="Right" Click="close"/>
+            <Button Style="{DynamicResource leftsidebt}" Width="40" FontFamily="/EnoughHookUI;component/Fonts/#Raleway" Foreground="White" FontSize="16" Content="—" HorizontalAlignment="Right" Margin="0,0,40,0"/>
+        </Grid>
+        <Grid Grid.RowSpan="3" Grid.Column="0" Background="#FF1B1B1E">
+            
+        </Grid>
+        <Grid Grid.Row="1" Grid.Column="1" Background="#F92D2D32">
+            
+        </Grid>
     </Grid>
 </Window>

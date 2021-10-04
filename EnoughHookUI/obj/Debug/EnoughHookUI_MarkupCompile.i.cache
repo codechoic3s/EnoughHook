@@ -4,7 +4,7 @@
 winexe
 C#
 .cs
-F:\VisualStudioProjects\EnoughHook\EnoughHookUI\obj\Debug\
+D:\Projects\GitHubPrj\EnoughHook\EnoughHookUI\obj\Debug\
 EnoughHookUI
 none
 false
@@ -16,5 +16,5 @@ DEBUG;TRACE
 13-1505183044
 MainWindow.xaml;
 
-False
+True
 

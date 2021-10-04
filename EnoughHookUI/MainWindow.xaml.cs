@@ -24,5 +24,16 @@ namespace EnoughHookUI
         {
             InitializeComponent();
         }
+
+        private void close(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+            Environment.Exit(-1);
+        }
+
+        private void Grid_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            DragMove();
+        }
     }
 }

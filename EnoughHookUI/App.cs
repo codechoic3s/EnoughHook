@@ -9,9 +9,12 @@ namespace EnoughHookUI
 {
     class App
     {
+        [STAThread]
         static void Main(string[] args)
         {
-            MessageBox.Show("Non executable", "Runtime", MessageBoxButton.OK, MessageBoxImage.Error);
+            MainWindow mw = new MainWindow();
+            mw.ShowDialog();
+            //MessageBox.Show("Non executable", "Runtime", MessageBoxButton.OK, MessageBoxImage.Error);
         }
     }
 }

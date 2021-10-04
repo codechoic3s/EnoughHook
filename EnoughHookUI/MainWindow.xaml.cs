@@ -1,4 +1,5 @@
-﻿using System;
+﻿using EnoughHookMid.UI;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -18,11 +19,18 @@ namespace EnoughHookUI
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class MainWindow : Window, IWindow
     {
+        private TabManager TabManager;
         public MainWindow()
         {
             InitializeComponent();
+            TabManager = null; // is abstract go implement
+        }
+
+        public TabManager GetTabManager()
+        {
+            throw new NotImplementedException();
         }
 
         private void close(object sender, RoutedEventArgs e)

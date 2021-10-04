@@ -90,5 +90,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EnoughHookMid\EnoughHookMid.csproj">
+      <Project>{5CC5A023-169A-4F6F-8932-6EECDCBE726D}</Project>
+      <Name>EnoughHookMid</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

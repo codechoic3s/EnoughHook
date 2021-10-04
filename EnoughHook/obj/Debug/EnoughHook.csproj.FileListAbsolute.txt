@@ -12,3 +12,9 @@ D:\Projects\GitHubPrj\EnoughHook\EnoughHook\obj\Debug\EnoughHook.csproj.Assembly
 D:\Projects\GitHubPrj\EnoughHook\EnoughHook\obj\Debug\EnoughHook.csproj.CoreCompileInputs.cache
 D:\Projects\GitHubPrj\EnoughHook\EnoughHook\obj\Debug\EnoughHook.exe
 D:\Projects\GitHubPrj\EnoughHook\EnoughHook\obj\Debug\EnoughHook.pdb
+F:\VisualStudioProjects\EnoughHook\EnoughHook\bin\Debug\EnoughHookMid.dll
+F:\VisualStudioProjects\EnoughHook\EnoughHook\bin\Debug\EnoughHookUI.exe
+F:\VisualStudioProjects\EnoughHook\EnoughHook\bin\Debug\EnoughHookMid.pdb
+F:\VisualStudioProjects\EnoughHook\EnoughHook\bin\Debug\EnoughHookUI.pdb
+F:\VisualStudioProjects\EnoughHook\EnoughHook\bin\Debug\EnoughHookUI.exe.config
+F:\VisualStudioProjects\EnoughHook\EnoughHook\obj\Debug\EnoughHook.csproj.CopyComplete

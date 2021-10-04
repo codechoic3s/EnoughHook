@@ -33,21 +33,41 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Xaml" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="App.cs" />
+    <Compile Include="Features\BunnyHop.cs" />
+    <Compile Include="Features\Trigger.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="GameClasses\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EnoughHookMid\EnoughHookMid.csproj">
+      <Project>{5cc5a023-169a-4f6f-8932-6eecdcbe726d}</Project>
+      <Name>EnoughHookMid</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EnoughHookUI\EnoughHookUI.csproj">
+      <Project>{A2D92503-B2B0-4015-A6B2-FC9E17D800D1}</Project>
+      <Name>EnoughHookUI</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

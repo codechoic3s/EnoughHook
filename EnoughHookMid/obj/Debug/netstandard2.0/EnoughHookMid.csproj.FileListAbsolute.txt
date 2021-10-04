@@ -8,3 +8,6 @@ F:\VisualStudioProjects\EnoughHook\EnoughHookMid\obj\Debug\netstandard2.0\Enough
 F:\VisualStudioProjects\EnoughHook\EnoughHookMid\obj\Debug\netstandard2.0\EnoughHookMid.csproj.CoreCompileInputs.cache
 F:\VisualStudioProjects\EnoughHook\EnoughHookMid\obj\Debug\netstandard2.0\EnoughHookMid.dll
 F:\VisualStudioProjects\EnoughHook\EnoughHookMid\obj\Debug\netstandard2.0\EnoughHookMid.pdb
+F:\VisualStudioProjects\EnoughHook\EnoughHookMid\bin\Debug\netstandard2.0\FUtils.dll
+F:\VisualStudioProjects\EnoughHook\EnoughHookMid\bin\Debug\netstandard2.0\FUtils.pdb
+F:\VisualStudioProjects\EnoughHook\EnoughHookMid\obj\Debug\netstandard2.0\EnoughHookMid.csproj.CopyComplete

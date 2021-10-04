@@ -48,8 +48,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.cs" />
+    <Compile Include="CFG\Config.cs" />
+    <Compile Include="CFG\ConfigManager.cs" />
+    <Compile Include="CFG\Impl\AutoFire.cs" />
+    <Compile Include="CFG\Impl\Movement.cs" />
     <Compile Include="Features\BunnyHop.cs" />
-    <Compile Include="Features\Trigger.cs" />
+    <Compile Include="Features\AutoFire.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

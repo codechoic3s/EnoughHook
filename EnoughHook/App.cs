@@ -1,4 +1,5 @@
-﻿using EnoughHookMid.UI;
+﻿using EnoughHook.CFG;
+using EnoughHookMid.UI;
 using EnoughHookUI;
 using System;
 using System.Collections.Generic;
@@ -13,9 +14,11 @@ namespace EnoughHook
     {
         private Thread MainWindowThread;
         private IWindow Window;
-        private TabManager TabManager;
 
-        private Tab TriggerTab;
+        private TabManager TabManager;
+        private ConfigManager ConfigManager;
+
+        private Tab AutoFireTab;
         private Tab MovementTab;
 
         private void StartMainWindow()
@@ -42,18 +45,29 @@ namespace EnoughHook
             mw.ShowDialog();
         }
 
+        private void SetupConfigManager()
+        {
+            ConfigManager = new ConfigManager(AppDomain.CurrentDomain.BaseDirectory);
+        }
+
         private void SetupInterface()
         {
             TabManager = Window.GetTabManager();
-            TriggerTab = TabManager.AddNewPanel("Trigger");
-            MovementTab = TabManager.AddNewPanel("Movement");
 
+            AutoFireTab = TabManager.AddNewPanel("AutoFire");
+            AutoFireTab.AddNewProp("Enable", ConfigManager.Current.AutoFire.Enabled);
+            AutoFireTab.AddNewProp("PreDelay", ConfigManager.Current.AutoFire.PreDelay);
+            AutoFireTab.AddNewProp("AfterDelay", ConfigManager.Current.AutoFire.AfterDelay);
+
+            MovementTab = TabManager.AddNewPanel("Movement");
+            MovementTab.AddNewProp("BunnyHop", ConfigManager.Current.Movement.BunnyHop);
             
         }
 
         public void Start()
         {
             StartMainWindow();
+            SetupConfigManager();
             SetupInterface();
         }
     }

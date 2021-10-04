@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EnoughHook.Features
+namespace EnoughHook.CFG.Impl
 {
-    class Trigger
+    public struct Movement
     {
+        public bool BunnyHop;
     }
 }

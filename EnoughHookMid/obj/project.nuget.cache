@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "KJYDrDP7ALHp6v8wvkf7yrIUtiJ+3MMfR/yFgo/EYYO4iYkcd7Bw4vcI2esBpLTjy4bMmqb+g4mJ/Af1MeB77A==",
+  "dgSpecHash": "Q66yrLyjArc2FZWsVsyD9uuKwERv8OiZ9XQfQ/NijUiMOCOSItzEozzotqeNazMU4B76OiNIZK9olmHRdw66ow==",
   "success": true,
   "projectFilePath": "F:\\VisualStudioProjects\\EnoughHook\\EnoughHookMid\\EnoughHookMid.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\denis\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\denis\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\denis\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\denis\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }

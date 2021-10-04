@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FUtils.Wrapping;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,7 +9,7 @@ namespace EnoughHookMid.UI
 {
     public abstract class Prop<T> : IProp
     {
-        public T Value;
+        public TypizedWrap<T> Value;
         public string Name;
 
         private Type _type;
@@ -18,7 +19,7 @@ namespace EnoughHookMid.UI
             _type = typeof(T);
         }
 
-        public object AsObject { get => Value; set { Value = (T)value; } }
+        public object AsObject { get => Value.Value; set { Value.Value = (T)value; } }
 
         public Type GetValueType()
         {

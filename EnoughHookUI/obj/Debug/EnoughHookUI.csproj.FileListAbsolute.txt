@@ -29,3 +29,6 @@ D:\Projects\GitHubPrj\EnoughHook\EnoughHookUI\obj\Debug\EnoughHookUI.pdb
 F:\VisualStudioProjects\EnoughHook\EnoughHookUI\bin\Debug\EnoughHookMid.dll
 F:\VisualStudioProjects\EnoughHook\EnoughHookUI\bin\Debug\EnoughHookMid.pdb
 F:\VisualStudioProjects\EnoughHook\EnoughHookUI\obj\Debug\EnoughHookUI.csproj.CopyComplete
+F:\VisualStudioProjects\EnoughHook\EnoughHookUI\bin\Debug\FUtils.dll
+F:\VisualStudioProjects\EnoughHook\EnoughHookUI\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+F:\VisualStudioProjects\EnoughHook\EnoughHookUI\bin\Debug\FUtils.pdb

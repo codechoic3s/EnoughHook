@@ -66,6 +66,11 @@ namespace EnoughHook
             
         }
 
+        private void SetupSDK()
+        {
+
+        }
+
         public void Start()
         {
             StartMainWindow();

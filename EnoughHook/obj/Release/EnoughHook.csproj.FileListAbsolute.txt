@@ -1,0 +1,2 @@
+F:\VisualStudioProjects\EnoughHook\EnoughHook\obj\Release\EnoughHook.csproj.AssemblyReference.cache
+F:\VisualStudioProjects\EnoughHook\EnoughHook\obj\Release\EnoughHook.csproj.CoreCompileInputs.cache

@@ -1,13 +1,13 @@
-﻿using Interoping.ProcessManager;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EnoughHook.GameData
+namespace EnoughHook
 {
-    public class ClientModule : Module
+    public class UnstableTrigger
     {
+
     }
 }

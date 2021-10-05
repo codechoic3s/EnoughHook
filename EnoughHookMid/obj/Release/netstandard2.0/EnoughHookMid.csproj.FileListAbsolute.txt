@@ -1,0 +1,5 @@
+F:\VisualStudioProjects\EnoughHook\EnoughHookMid\obj\Release\netstandard2.0\EnoughHookMid.csproj.AssemblyReference.cache
+F:\VisualStudioProjects\EnoughHook\EnoughHookMid\obj\Release\netstandard2.0\EnoughHookMid.GeneratedMSBuildEditorConfig.editorconfig
+F:\VisualStudioProjects\EnoughHook\EnoughHookMid\obj\Release\netstandard2.0\EnoughHookMid.AssemblyInfoInputs.cache
+F:\VisualStudioProjects\EnoughHook\EnoughHookMid\obj\Release\netstandard2.0\EnoughHookMid.AssemblyInfo.cs
+F:\VisualStudioProjects\EnoughHook\EnoughHookMid\obj\Release\netstandard2.0\EnoughHookMid.csproj.CoreCompileInputs.cache

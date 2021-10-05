@@ -1,0 +1,6 @@
+F:\VisualStudioProjects\EnoughHook\UnstableTrigger\bin\Release\UnstableTrigger.exe.config
+F:\VisualStudioProjects\EnoughHook\UnstableTrigger\bin\Release\UnstableTrigger.exe
+F:\VisualStudioProjects\EnoughHook\UnstableTrigger\bin\Release\UnstableTrigger.pdb
+F:\VisualStudioProjects\EnoughHook\UnstableTrigger\obj\Release\UnstableTrigger.csproj.CoreCompileInputs.cache
+F:\VisualStudioProjects\EnoughHook\UnstableTrigger\obj\Release\UnstableTrigger.exe
+F:\VisualStudioProjects\EnoughHook\UnstableTrigger\obj\Release\UnstableTrigger.pdb

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FD5B610E-76FE-4C39-9EB1-01E39D07FB93}</ProjectGuid>
+    <ProjectGuid>{B33C2AF5-5353-457B-A055-86461820E718}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>EnoughHook</RootNamespace>
-    <AssemblyName>EnoughHook</AssemblyName>
+    <RootNamespace>UnstableTrigger</RootNamespace>
+    <AssemblyName>UnstableTrigger</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,46 +33,23 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="PresentationCore" />
-    <Reference Include="PresentationFramework" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Xaml" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
-    <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="App.cs" />
-    <Compile Include="CFG\Config.cs" />
-    <Compile Include="CFG\ConfigManager.cs" />
-    <Compile Include="CFG\Impl\AutoFire.cs" />
-    <Compile Include="CFG\Impl\Movement.cs" />
-    <Compile Include="Features\BunnyHop.cs" />
-    <Compile Include="Features\AutoFire.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UnstableTrigger.cs" />
+    <Compile Include="Trigger.cs" />
+    <Compile Include="Unstable.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="GameData\" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\EnoughHookMid\EnoughHookMid.csproj">
-      <Project>{5cc5a023-169a-4f6f-8932-6eecdcbe726d}</Project>
-      <Name>EnoughHookMid</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\EnoughHookUI\EnoughHookUI.csproj">
-      <Project>{A2D92503-B2B0-4015-A6B2-FC9E17D800D1}</Project>
-      <Name>EnoughHookUI</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

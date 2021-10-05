@@ -1,6 +1,3 @@
 [submodule "CSGO_MemorySDK"]
 	path = CSGO_MemorySDK
 	url = https://github.com/codechoic3s/CSGO_MemorySDK
-[submodule "Interoping"]
-	path = Interoping
-	url = https://github.com/codechoic3s/Interoping

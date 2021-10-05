@@ -1,6 +1,7 @@
 ﻿using EnoughHook.CFG;
 using EnoughHookMid.UI;
 using EnoughHookUI;
+using FUtils.Wrapping;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -56,12 +57,12 @@ namespace EnoughHook
             TabManager = Window.GetTabManager();
 
             AutoFireTab = TabManager.AddNewPanel("AutoFire");
-            AutoFireTab.AddNewProp("Enable", ConfigManager.Current.AutoFire.Enabled);
-            AutoFireTab.AddNewProp("PreDelay", ConfigManager.Current.AutoFire.PreDelay);
-            AutoFireTab.AddNewProp("AfterDelay", ConfigManager.Current.AutoFire.AfterDelay);
+            AutoFireTab.AddNewProp("Enable", new TypizedWrap<object>(ConfigManager.Current.AutoFire.Enabled));
+            AutoFireTab.AddNewProp("PreDelay", new TypizedWrap<object>(ConfigManager.Current.AutoFire.PreDelay));
+            AutoFireTab.AddNewProp("AfterDelay", new TypizedWrap<object>(ConfigManager.Current.AutoFire.AfterDelay));
 
             MovementTab = TabManager.AddNewPanel("Movement");
-            MovementTab.AddNewProp("BunnyHop", ConfigManager.Current.Movement.BunnyHop);
+            MovementTab.AddNewProp("BunnyHop", new TypizedWrap<object>(ConfigManager.Current.Movement.BunnyHop));
             
         }
 
@@ -69,7 +70,7 @@ namespace EnoughHook
         {
             StartMainWindow();
             SetupConfigManager();
-            SetupUIInterface();
+            //SetupUIInterface();
         }
     }
 }

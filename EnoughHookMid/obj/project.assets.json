@@ -229,8 +229,8 @@
     },
     "FUtils/1.0.0": {
       "type": "project",
-      "path": "../Interoping/FUtils/FUtils/FUtils.csproj",
-      "msbuildProject": "../Interoping/FUtils/FUtils/FUtils.csproj"
+      "path": "../CSGO_MemorySDK/FUtils/FUtils/FUtils.csproj",
+      "msbuildProject": "../CSGO_MemorySDK/FUtils/FUtils/FUtils.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -274,8 +274,8 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "projectReferences": {
-            "F:\\VisualStudioProjects\\EnoughHook\\Interoping\\FUtils\\FUtils\\FUtils.csproj": {
-              "projectPath": "F:\\VisualStudioProjects\\EnoughHook\\Interoping\\FUtils\\FUtils\\FUtils.csproj"
+            "F:\\VisualStudioProjects\\EnoughHook\\CSGO_MemorySDK\\FUtils\\FUtils\\FUtils.csproj": {
+              "projectPath": "F:\\VisualStudioProjects\\EnoughHook\\CSGO_MemorySDK\\FUtils\\FUtils\\FUtils.csproj"
             }
           }
         }

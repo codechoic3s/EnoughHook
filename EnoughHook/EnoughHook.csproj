@@ -64,6 +64,10 @@
     <Folder Include="GameClasses\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\CSGO_MemorySDK\FUtils\FUtils\FUtils.csproj">
+      <Project>{0AF098BD-2C3D-439E-A01A-C28E75DA4CC0}</Project>
+      <Name>FUtils</Name>
+    </ProjectReference>
     <ProjectReference Include="..\EnoughHookMid\EnoughHookMid.csproj">
       <Project>{5cc5a023-169a-4f6f-8932-6eecdcbe726d}</Project>
       <Name>EnoughHookMid</Name>

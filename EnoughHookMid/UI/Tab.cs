@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FUtils.Wrapping;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -16,6 +17,6 @@ namespace EnoughHookMid.UI
             Props = new List<IProp>();
         }
 
-        public abstract IProp AddNewProp(string name, object value);
+        public abstract IProp AddNewProp(string name, TypizedWrap<object> value);
     }
 }

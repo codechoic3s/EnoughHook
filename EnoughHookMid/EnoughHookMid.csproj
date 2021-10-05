@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Interoping\FUtils\FUtils\FUtils.csproj" />
+    <ProjectReference Include="..\CSGO_MemorySDK\FUtils\FUtils\FUtils.csproj" />
   </ItemGroup>
 
 </Project>

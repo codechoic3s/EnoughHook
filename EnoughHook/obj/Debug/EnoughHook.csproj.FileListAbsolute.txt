@@ -19,5 +19,4 @@ F:\VisualStudioProjects\EnoughHook\EnoughHook\bin\Debug\EnoughHookUI.pdb
 F:\VisualStudioProjects\EnoughHook\EnoughHook\bin\Debug\EnoughHookUI.exe.config
 F:\VisualStudioProjects\EnoughHook\EnoughHook\obj\Debug\EnoughHook.csproj.CopyComplete
 F:\VisualStudioProjects\EnoughHook\EnoughHook\bin\Debug\FUtils.dll
-F:\VisualStudioProjects\EnoughHook\EnoughHook\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
 F:\VisualStudioProjects\EnoughHook\EnoughHook\bin\Debug\FUtils.pdb

@@ -36,7 +36,7 @@ namespace UnstableTrigger
                 {
                     MRE.WaitOne(TimeSpan);
                     //Thread.Sleep(1);
-                    if (Unstable.GetKeyState(Unstable.VK.KEY_V))
+                    if (Unstable.GetKeyState(Unstable.VK.LSHIFT))
                     {
                         var team = Unstable.RPMInt((IntPtr)Unstable.LocalPlayerInstance + Unstable.TeamIDPTR);
                         var crossInd = Unstable.RPMInt((IntPtr)Unstable.LocalPlayerInstance + Unstable.CrosshairIDPTR);

@@ -35,12 +35,11 @@ namespace UnstableTrigger
                 while (true)
                 {
                     MRE.WaitOne(TimeSpan);
-
-                    if (Unstable.GetKeyState(0xA0))
+                    //Thread.Sleep(1);
+                    if (Unstable.GetKeyState(Unstable.VK.KEY_V))
                     {
-                        var lp = Unstable.RPMInt(Unstable.ClientModulePtr + Unstable.LocalPlayerPTR);
-                        var team = Unstable.RPMInt((IntPtr)lp + Unstable.TeamIDPTR);
-                        var crossInd = Unstable.RPMInt((IntPtr)lp + Unstable.CrosshairIDPTR);
+                        var team = Unstable.RPMInt((IntPtr)Unstable.LocalPlayerInstance + Unstable.TeamIDPTR);
+                        var crossInd = Unstable.RPMInt((IntPtr)Unstable.LocalPlayerInstance + Unstable.CrosshairIDPTR);
                         var crossEnt = Unstable.RPMInt(Unstable.ClientModulePtr + Unstable.EntityListPTR + (crossInd - 1) * 16);
                         var crossTeam = Unstable.RPMInt((IntPtr)crossEnt + Unstable.TeamIDPTR);
 

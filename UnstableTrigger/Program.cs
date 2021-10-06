@@ -12,11 +12,14 @@ namespace UnstableTrigger
         {
             var unstable = new Unstable();
             var state = unstable.AllocateProcess();
+            unstable.Start();
             if (state)
             {
                 unstable.LoadOffsets();
                 var trigger = new Trigger(unstable);
                 trigger.Start();
+                var bhop = new BunnyHop(unstable);
+                bhop.Start();
                 Console.WriteLine("Process finded.");
             }
             else
